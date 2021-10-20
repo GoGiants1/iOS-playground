@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64E438CB27203E0B000B4ED6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E438CA27203E0B000B4ED6 /* HistoryView.swift */; };
+		7067024C0B754602D38A0932 /* Pods_Scrumdinger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8E0FFAD022DE2F46837799 /* Pods_Scrumdinger.framework */; };
 		AA13BBBF24F567AA005EB048 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBBE24F567AA005EB048 /* EditView.swift */; };
 		AA13BBC124F56EA9005EB048 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */; };
 		AA13BBC324F56EDB005EB048 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64E438CA27203E0B000B4ED6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6B92B29077D8D58BD9A81AB2 /* Pods-Scrumdinger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrumdinger.release.xcconfig"; path = "Target Support Files/Pods-Scrumdinger/Pods-Scrumdinger.release.xcconfig"; sourceTree = "<group>"; };
 		AA13BBBE24F567AA005EB048 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		AAD1604024F59EC40014DFC3 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		AAD1604224F5A08F0014DFC3 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		AAD1604424F5B43A0014DFC3 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		C09851960EF54A56575DA447 /* Pods-Scrumdinger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrumdinger.debug.xcconfig"; path = "Target Support Files/Pods-Scrumdinger/Pods-Scrumdinger.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8E0FFAD022DE2F46837799 /* Pods_Scrumdinger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scrumdinger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +71,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7067024C0B754602D38A0932 /* Pods_Scrumdinger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0EA18C13D5C324CD16D4CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E0FFAD022DE2F46837799 /* Pods_Scrumdinger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EA846CC1052FFFCF9C63FBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C09851960EF54A56575DA447 /* Pods-Scrumdinger.debug.xcconfig */,
+				6B92B29077D8D58BD9A81AB2 /* Pods-Scrumdinger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AA13BBC424F56F0E005EB048 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +124,8 @@
 				AA8ACE8224F44E01007DA4D8 /* Scrumdinger */,
 				AA8ACE8124F44E01007DA4D8 /* Products */,
 				AA8ACE9224F44F85007DA4D8 /* LICENSE */,
+				2EA846CC1052FFFCF9C63FBB /* Pods */,
+				0F0EA18C13D5C324CD16D4CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +150,7 @@
 				AA65BF4C24F46C27007E4A1B /* DetailView.swift */,
 				AA13BBBE24F567AA005EB048 /* EditView.swift */,
 				AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */,
+				64E438CA27203E0B000B4ED6 /* HistoryView.swift */,
 				AA65BF4324F4604A007E4A1B /* Models */,
 				AA8ACE8724F44E03007DA4D8 /* Assets.xcassets */,
 				AA8ACE8C24F44E03007DA4D8 /* Info.plist */,
@@ -157,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA8ACE8F24F44E03007DA4D8 /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
 			buildPhases = (
+				CB1540CB9CCE283C953B6BBB /* [CP] Check Pods Manifest.lock */,
 				AA8ACE7C24F44E01007DA4D8 /* Sources */,
 				AA8ACE7D24F44E01007DA4D8 /* Frameworks */,
 				AA8ACE7E24F44E01007DA4D8 /* Resources */,
@@ -218,6 +246,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB1540CB9CCE283C953B6BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scrumdinger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA8ACE7C24F44E01007DA4D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -230,6 +283,7 @@
 				AA13BBBF24F567AA005EB048 /* EditView.swift in Sources */,
 				AA5719D824F57D59002316EB /* MeetingHeaderView.swift in Sources */,
 				AAD1604124F59EC40014DFC3 /* ScrumData.swift in Sources */,
+				64E438CB27203E0B000B4ED6 /* HistoryView.swift in Sources */,
 				AAD1604324F5A08F0014DFC3 /* MeetingTimerView.swift in Sources */,
 				AA5719DA24F57DA3002316EB /* MeetingFooterView.swift in Sources */,
 				AA13BBC824F56FC6005EB048 /* AVPlayer+Ding.swift in Sources */,
@@ -364,6 +418,7 @@
 		};
 		AA8ACE9024F44E03007DA4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09851960EF54A56575DA447 /* Pods-Scrumdinger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,6 +440,7 @@
 		};
 		AA8ACE9124F44E03007DA4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B92B29077D8D58BD9A81AB2 /* Pods-Scrumdinger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
